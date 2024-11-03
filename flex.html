@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex revision</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+          background-color: black;
+          height: 10vh;
+          box-sizing: border-box;
+          padding: 10px;
+        }
+        .nav-items{
+            display: flex;
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            justify-content: end;
+            list-style-type: none;
+
+        }
+        .item{
+            margin-left: 20px;
+            
+        }
+        li>a{
+            text-decoration: none;
+            color: bisque;
+        }
+        .page{
+            width: 100%;
+            height: 100vh;
+            background-image: url("https://chinnajeeyar.org/wp-content/uploads/2019/10/ba-awesome-colorful-fireworks-animated-gif-image-s.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="nav-items">
+            <li class="item"><a href="/">Home</a></li>
+            <li class="item"><a href="/grid.html">About</a></li>
+            <li class="item"><a href="#">products</a></li>
+            <li class="item"><a href="#">sign in</a></li>
+        </ul>
+    </div>
+    <div class="page">
+
+    </div>
+</body>
+</html>
